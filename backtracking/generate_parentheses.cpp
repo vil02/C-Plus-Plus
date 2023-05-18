@@ -27,7 +27,7 @@ class generate_parentheses {
  private:
     std::vector<std::string> res;  ///< Contains all possible valid patterns
 
-    void makeStrings(std::string str, int n, int closed, int open);
+    void makeStrings(const std::string& str, int n, int closed, int open);
 
  public:
     std::vector<std::string> generate(int n);
@@ -42,10 +42,11 @@ class generate_parentheses {
  * @param open number of open parentheses
  */
 
-void generate_parentheses::makeStrings(std::string str, int n,
-                                                     int closed, int open) {
-    if (closed > open)  // We can never have more closed than open
+void generate_parentheses::makeStrings(const std::string& str, int n,
+                                       int closed, int open) {
+    if (closed > open) {  // We can never have more closed than open
         return;
+    }
 
     if ((str.length() == 2 * n) &&
         (closed != open)) {  // closed and open must be the same
