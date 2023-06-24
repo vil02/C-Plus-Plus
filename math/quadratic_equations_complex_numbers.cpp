@@ -65,7 +65,7 @@ std::array<std::complex<long double>, 2> quadraticEquation(long double a,
         solutions[1] = -b * 0.5 / a;
         return solutions;
     }
-    
+
     // Complex root (discriminant < 0)
     // Note that the left term (-b / 2a) is always real. The imaginary part
     // appears when b^2 - 4ac < 0, so sqrt(b^2 - 4ac) has no real roots. So,

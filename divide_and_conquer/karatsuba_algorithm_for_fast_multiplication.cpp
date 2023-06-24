@@ -4,8 +4,8 @@
  * multiplication](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
  * @details
  * Given two strings in binary notation we want to multiply them and return the
- * value. Simple approach is to multiply bits one by one which will give the time
- * complexity of around O(n^2). To make it more efficient we will be using
+ * value. Simple approach is to multiply bits one by one which will give the
+ * time complexity of around O(n^2). To make it more efficient we will be using
  * Karatsuba algorithm to find the product which will solve the problem
  * O(nlogn) of time.
  * @author [Swastika Gupta](https://github.com/Swastyy)
@@ -25,7 +25,8 @@ namespace divide_and_conquer {
 /**
  * @namespace karatsuba_algorithm
  * @brief Functions for the [Karatsuba algorithm for fast
- * multiplication](https://en.wikipedia.org/wiki/Karatsuba_algorithm) implementation
+ * multiplication](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
+ * implementation
  */
 namespace karatsuba_algorithm {
 /**
@@ -45,13 +46,13 @@ std::string add_strings(std::string first, std::string second) {
         for (int64_t i = 0; i < len2 - len1; i++) {
             zero += first;
             first = zero;
-            zero = "0"; // Prevents CI from failing
+            zero = "0";  // Prevents CI from failing
         }
     } else if (len1 > len2) {
         for (int64_t i = 0; i < len1 - len2; i++) {
             zero += second;
             second = zero;
-            zero = "0"; // Prevents CI from failing
+            zero = "0";  // Prevents CI from failing
         }
     }
 
@@ -61,11 +62,12 @@ std::string add_strings(std::string first, std::string second) {
         int64_t firstBit = first.at(i) - '0';
         int64_t secondBit = second.at(i) - '0';
 
-        int64_t sum = (char(firstBit ^ secondBit ^ carry)) + '0';  // sum of 3 bits
+        int64_t sum =
+            (char(firstBit ^ secondBit ^ carry)) + '0';  // sum of 3 bits
         result.insert(result.begin(), sum);
 
         carry = char((firstBit & secondBit) | (secondBit & carry) |
-                (firstBit & carry));  // sum of 3 bits
+                     (firstBit & carry));  // sum of 3 bits
     }
 
     if (carry) {
@@ -83,15 +85,20 @@ std::string add_strings(std::string first, std::string second) {
  * @returns the "safe" substring for the algorithm *without* leading zeros
  * @returns "0" if substring spans to leading zeros only
  */
-std::string safe_substr(const std::string &str, int64_t x1, int64_t x2, int64_t n) {
+std::string safe_substr(const std::string &str, int64_t x1, int64_t x2,
+                        int64_t n) {
     int64_t len = str.size();
 
     if (len >= n) {
         return str.substr(x1, x2);
     }
 
-    int64_t y1 = x1 - (n - len);  // index in str of first char of substring of "whole" string
-    int64_t y2 = (x1 + x2 - 1) - (n - len);  // index in str of last char of substring of "whole" string
+    int64_t y1 =
+        x1 -
+        (n - len);  // index in str of first char of substring of "whole" string
+    int64_t y2 =
+        (x1 + x2 - 1) -
+        (n - len);  // index in str of last char of substring of "whole" string
 
     if (y2 < 0) {
         return "0";
@@ -121,14 +128,18 @@ int64_t karatsuba_algorithm(std::string str1, std::string str2) {
         return (str1[0] - '0') * (str2[0] - '0');
     }
 
-    int64_t fh = n / 2;     // first half of string
+    int64_t fh = n / 2;   // first half of string
     int64_t sh = n - fh;  // second half of string
 
-    std::string Xl = divide_and_conquer::karatsuba_algorithm::safe_substr(str1, 0, fh, n);   // first half of first string
-    std::string Xr = divide_and_conquer::karatsuba_algorithm::safe_substr(str1, fh, sh, n);  // second half of first string
+    std::string Xl = divide_and_conquer::karatsuba_algorithm::safe_substr(
+        str1, 0, fh, n);  // first half of first string
+    std::string Xr = divide_and_conquer::karatsuba_algorithm::safe_substr(
+        str1, fh, sh, n);  // second half of first string
 
-    std::string Yl = divide_and_conquer::karatsuba_algorithm::safe_substr(str2, 0, fh, n);   // first half of second string
-    std::string Yr = divide_and_conquer::karatsuba_algorithm::safe_substr(str2, fh, sh, n);  // second half of second string
+    std::string Yl = divide_and_conquer::karatsuba_algorithm::safe_substr(
+        str2, 0, fh, n);  // first half of second string
+    std::string Yr = divide_and_conquer::karatsuba_algorithm::safe_substr(
+        str2, fh, sh, n);  // second half of second string
 
     // calculating the three products of inputs of size n/2 recursively
     int64_t product1 = karatsuba_algorithm(Xl, Yl);

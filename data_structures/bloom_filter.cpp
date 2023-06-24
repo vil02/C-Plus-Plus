@@ -22,12 +22,12 @@
  * @author [DanArmor](https://github.com/DanArmor)
  */
 
-#include <cassert>           /// for assert
-#include <functional>        /// for list of hash functions for bloom filter constructor
+#include <cassert>     /// for assert
+#include <functional>  /// for list of hash functions for bloom filter constructor
 #include <initializer_list>  /// for initializer_list for bloom filter constructor
+#include <iostream>          /// for IO operations
 #include <string>            /// for testing on strings
 #include <vector>            /// for std::vector
-#include <iostream>          /// for IO operations
 
 /**
  * @namespace data_structures
@@ -282,10 +282,11 @@ static void test_bitset() {
 int main() {
     // run self-test implementations
 
-    test_bitset();  // run test for bitset, because bloom filter is depending on it
+    test_bitset();  // run test for bitset, because bloom filter is depending on
+                    // it
     test_bloom_filter_string();
     test_bloom_filter_int();
-    
+
     std::cout << "All tests have successfully passed!\n";
     return 0;
 }

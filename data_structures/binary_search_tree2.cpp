@@ -1,7 +1,9 @@
 /**
  * @file
- * @brief A generic [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree) implementation.
- * Here you can find more information about the algorithm: [Scaler - Binary Search tree](https://www.scaler.com/topics/data-structures/binary-search-tree/).
+ * @brief A generic [binary search
+ * tree](https://en.wikipedia.org/wiki/Binary_search_tree) implementation. Here
+ * you can find more information about the algorithm: [Scaler - Binary Search
+ * tree](https://www.scaler.com/topics/data-structures/binary-search-tree/).
  * @see binary_search_tree.cpp
  */
 
@@ -20,18 +22,18 @@ template <class T>
 class binary_search_tree {
  private:
     /**
-    * @brief A struct to represent a node in the Binary Search Tree.
-    */
+     * @brief A struct to represent a node in the Binary Search Tree.
+     */
     struct bst_node {
-        T value; /**< The value/key of the node. */
-        std::unique_ptr<bst_node> left; /**< Pointer to left subtree. */
+        T value;                         /**< The value/key of the node. */
+        std::unique_ptr<bst_node> left;  /**< Pointer to left subtree. */
         std::unique_ptr<bst_node> right; /**< Pointer to right subtree. */
 
         /**
-        * Constructor for bst_node, used to simplify node construction and
-        * smart pointer construction.
-        * @param _value The value of the constructed node.
-        */
+         * Constructor for bst_node, used to simplify node construction and
+         * smart pointer construction.
+         * @param _value The value of the constructed node.
+         */
         explicit bst_node(T _value) {
             value = _value;
             left = nullptr;
@@ -352,7 +354,7 @@ class binary_search_tree {
 
 /**
  * @brief Function for testing insert().
- * 
+ *
  * @returns `void`
  */
 static void test_insert() {
@@ -386,7 +388,7 @@ static void test_insert() {
 
 /**
  * @brief Function for testing remove().
- * 
+ *
  * @returns `void`
  */
 static void test_remove() {
@@ -423,7 +425,7 @@ static void test_remove() {
 
 /**
  * @brief Function for testing contains().
- * 
+ *
  * @returns `void`
  */
 static void test_contains() {
@@ -446,7 +448,7 @@ static void test_contains() {
 
 /**
  * @brief Function for testing find_min().
- * 
+ *
  * @returns `void`
  */
 static void test_find_min() {
@@ -469,7 +471,7 @@ static void test_find_min() {
 
 /**
  * @brief Function for testing find_max().
- * 
+ *
  * @returns `void`
  */
 static void test_find_max() {
@@ -492,7 +494,7 @@ static void test_find_max() {
 
 /**
  * @brief Function for testing get_elements_inorder().
- * 
+ *
  * @returns `void`
  */
 static void test_get_elements_inorder() {
@@ -513,7 +515,7 @@ static void test_get_elements_inorder() {
 
 /**
  * @brief Function for testing get_elements_preorder().
- * 
+ *
  * @returns `void`
  */
 static void test_get_elements_preorder() {
@@ -534,7 +536,7 @@ static void test_get_elements_preorder() {
 
 /**
  * @brief Function for testing get_elements_postorder().
- * 
+ *
  * @returns `void`
  */
 static void test_get_elements_postorder() {
