@@ -12,9 +12,9 @@
  *
  * @author [Hashir Niazi](https://github.com/HashirGJ8842)
  */
-#include <cassert>   /// for assert
-#include <iostream>  /// for io operations, and std::pair
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <iostream>  // for io operations, and std::pair
+#include <vector>    // for std::vector
 
 /** \namespace search
  * \brief Algorithms for searching

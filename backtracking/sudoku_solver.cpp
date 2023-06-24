@@ -15,8 +15,8 @@
  * @author [DarthCoder3200](https://github.com/DarthCoder3200)
  * @author [David Leal](https://github.com/Panquesito7)
  */
-#include <array>     /// for assert
-#include <iostream>  /// for IO operations
+#include <array>     // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @namespace backtracking

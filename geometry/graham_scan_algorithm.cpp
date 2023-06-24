@@ -38,11 +38,11 @@
  * @author [Lajat Manekar](https://github.com/Lazeeez)
  *
  *******************************************************************************/
-#include <cassert>   /// for std::assert
-#include <iostream>  /// for IO Operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for std::assert
+#include <iostream>  // for IO Operations
+#include <vector>    // for std::vector
 
-#include "./graham_scan_functions.hpp"  /// for all the functions used
+#include "./graham_scan_functions.hpp"  // for all the functions used
 
 /*******************************************************************************
  * @brief Self-test implementations

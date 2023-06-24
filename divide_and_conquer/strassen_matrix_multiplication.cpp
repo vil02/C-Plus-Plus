@@ -10,11 +10,11 @@
  *
  * @author [AshishYUO](https://github.com/AshishYUO)
  */
-#include <cassert>   /// For assert operation
-#include <chrono>    /// For std::chrono; time measurement
-#include <iostream>  /// For I/O operations
-#include <tuple>     /// For std::tuple
-#include <vector>    /// For creating dynamic arrays
+#include <cassert>   // For assert operation
+#include <chrono>    // For std::chrono; time measurement
+#include <iostream>  // For I/O operations
+#include <tuple>     // For std::tuple
+#include <vector>    // For creating dynamic arrays
 
 /**
  * @namespace divide_and_conquer

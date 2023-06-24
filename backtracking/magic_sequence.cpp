@@ -15,12 +15,12 @@
  * @author [Jxtopher](https://github.com/Jxtopher)
  */
 
-#include <algorithm>  /// for std::count
-#include <cassert>    /// for assert
-#include <iostream>   /// for IO operations
-#include <list>       /// for std::list
-#include <numeric>    /// for std::accumulate
-#include <vector>     /// for std::vector
+#include <algorithm>  // for std::count
+#include <cassert>    // for assert
+#include <iostream>   // for IO operations
+#include <list>       // for std::list
+#include <numeric>    // for std::accumulate
+#include <vector>     // for std::vector
 
 /**
  * @namespace backtracking

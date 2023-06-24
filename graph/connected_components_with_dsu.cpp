@@ -17,9 +17,9 @@
  * @author Unknown author
  * @author [Sagar Pandya](https://github.com/sagarpandyansit)
  */
-#include <iostream>  /// for IO operations
-#include <set>       /// for std::set
-#include <vector>    /// for std::vector
+#include <iostream>  // for IO operations
+#include <set>       // for std::set
+#include <vector>    // for std::vector
 
 /**
  * @namespace graph

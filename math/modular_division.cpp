@@ -24,8 +24,8 @@
  * @author [Shubham Yadav](https://github.com/shubhamamsa)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @namespace math

@@ -9,9 +9,9 @@
  * @author [Focusucof](https://github.com/Focusucof)
  */
 
-#include <cassert>   /// for assert()
-#include <cmath>     /// for std::pow(), std::sin(), and std::cos()
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert()
+#include <cmath>     // for std::pow(), std::sin(), and std::cos()
+#include <iostream>  // for IO operations
 
 /**
  * @namespace physics

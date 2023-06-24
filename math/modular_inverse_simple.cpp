@@ -7,8 +7,8 @@
  * this algorithm calculates the modular inverse x^{-1} \mod y iteratively
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @brief Function imod

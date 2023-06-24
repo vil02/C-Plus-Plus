@@ -19,14 +19,14 @@
  * @author [Domenic Zingsheim](https://github.com/DerAndereDomenic)
  */
 
-#include <cassert>   /// for assert
-#include <cmath>     /// for math functions
-#include <cstdint>   /// for fixed size data types
-#include <ctime>     /// for time to initialize rng
-#include <iostream>  /// for std::cout
-#include <limits>    /// for std::numeric_limits
-#include <random>    /// for random numbers
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <cmath>     // for math functions
+#include <cstdint>   // for fixed size data types
+#include <ctime>     // for time to initialize rng
+#include <iostream>  // for std::cout
+#include <limits>    // for std::numeric_limits
+#include <random>    // for random numbers
+#include <vector>    // for std::vector
 
 /**
  * @namespace probability

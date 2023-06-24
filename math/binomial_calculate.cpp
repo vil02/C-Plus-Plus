@@ -6,10 +6,10 @@
  * @author [astronmax](https://github.com/astronmax)
  */
 
-#include <cassert>   /// for assert
-#include <cstdint>   /// for int32_t type
-#include <cstdlib>   /// for atoi
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <cstdint>   // for int32_t type
+#include <cstdlib>   // for atoi
+#include <iostream>  // for IO operations
 
 /**
  * @namespace math

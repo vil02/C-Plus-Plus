@@ -22,9 +22,9 @@
  *scenes](https://drive.google.com/file/d/1pM5COF0wx-wermnNy_svtyZquaCUP2xS/view?usp=sharing)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for I/O operations
-#include <new>       /// for managing  dynamic storage
+#include <cassert>   // for assert
+#include <iostream>  // for I/O operations
+#include <new>       // for managing  dynamic storage
 
 /**
  * @namespace data_structures

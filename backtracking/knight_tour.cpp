@@ -13,8 +13,8 @@
  * @author [Nikhil Arora](https://github.com/nikhilarora068)
  * @author [David Leal](https://github.com/Panquesito7)
  */
-#include <array>     /// for std::array
-#include <iostream>  /// for IO operations
+#include <array>     // for std::array
+#include <iostream>  // for IO operations
 
 /**
  * @namespace backtracking

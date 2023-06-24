@@ -27,10 +27,10 @@
  * @author [Tushar Khanduri](https://github.com/Tushar-K24)
  */
 
-#include <algorithm>  /// for std::is_sorted
-#include <cassert>    /// for assert
-#include <iostream>   /// for std::swap and io operations
-#include <vector>     /// for std::vector
+#include <algorithm>  // for std::is_sorted
+#include <cassert>    // for assert
+#include <iostream>   // for std::swap and io operations
+#include <vector>     // for std::vector
 
 /**
  * @namespace sorting

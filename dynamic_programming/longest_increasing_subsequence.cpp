@@ -19,10 +19,10 @@
  * @author [David Leal](https://github.com/Panquesito7)
  */
 
-#include <cassert>   /// for assert
-#include <climits>   /// for std::max
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <climits>   // for std::max
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector
 
 /**
  * @namespace dynamic_programming

@@ -19,8 +19,8 @@
  * Space complexity: O(1)
  * @author [Yash Raj Singh](https://github.com/yashrajyash)
  */
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 /**
  * @namespace bit_manipulation
  * @brief Bit manipulation algorithms

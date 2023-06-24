@@ -5,9 +5,9 @@
 #ifndef DATA_STRUCTURES_NODE_HPP_
 #define DATA_STRUCTURES_NODE_HPP_
 
-#include <iostream>  /// for std::cout
-#include <memory>    /// for std::shared_ptr
-#include <vector>    /// for std::vector
+#include <iostream>  // for std::cout
+#include <memory>    // for std::shared_ptr
+#include <vector>    // for std::vector
 
 /** Definition of the node as a linked-list
  * \tparam ValueType type of data nodes of the linked list should contain

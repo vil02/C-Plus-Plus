@@ -17,8 +17,8 @@
  * @author [Pooja](https://github.com/pooja-git11)
  * @author [Farbod Ahmadian](https://github.com/farbodahm)
  */
-#include <array>     /// for std::array
-#include <iostream>  /// for io operations
+#include <array>     // for std::array
+#include <iostream>  // for io operations
 
 constexpr uint16_t max_size{10};  ///< Maximum size of the queue
 

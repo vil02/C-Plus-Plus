@@ -13,9 +13,9 @@
  * @author [Anjali Jha](https://github.com/anjali1903)
  */
 
-#include <cassert>  /// for assert
-#include <string>   /// for std::string
-#include <vector>   /// for std::vector
+#include <cassert>  // for assert
+#include <string>   // for std::string
+#include <vector>   // for std::vector
 
 /**
  * @namespace

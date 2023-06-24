@@ -10,12 +10,12 @@
  * @author [Ghanashyam](https://github.com/g-s-k-zoro)
  */
 
-#include <algorithm>  /// for std::count
-#include <cassert>    /// for assert
-#include <cctype>     /// for tolower
-#include <cstring>    /// for string operations
-#include <iostream>   /// for IO Operations
-#include <queue>      /// for std::priority_queue
+#include <algorithm>  // for std::count
+#include <cassert>    // for assert
+#include <cctype>     // for tolower
+#include <cstring>    // for string operations
+#include <iostream>   // for IO Operations
+#include <queue>      // for std::priority_queue
 
 /**
  * @namespace operations_on_datastructures

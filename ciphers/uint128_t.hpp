@@ -7,13 +7,13 @@
  * @author [Ashish Daulatabad](https://github.com/AshishYUO)
  */
 
-#include <algorithm>  /// for `std::reverse` and other operations
-#include <ostream>    /// for `std::cout` overload
-#include <string>     /// for `std::string`
-#include <utility>    /// for `std::pair` library
+#include <algorithm>  // for `std::reverse` and other operations
+#include <ostream>    // for `std::cout` overload
+#include <string>     // for `std::string`
+#include <utility>    // for `std::pair` library
 
 #ifdef _MSC_VER
-#include <intrin.h>  /// for _BitScanForward64 and __BitScanReverse64 operation
+#include <intrin.h>  // for _BitScanForward64 and __BitScanReverse64 operation
 #endif
 
 #ifndef CIPHERS_UINT128_T_HPP_

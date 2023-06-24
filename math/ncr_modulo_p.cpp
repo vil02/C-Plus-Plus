@@ -9,9 +9,9 @@
  * @author [Kaustubh Damania](https://github.com/KaustubhDamania)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for io operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <iostream>  // for io operations
+#include <vector>    // for std::vector
 
 /**
  * @namespace math

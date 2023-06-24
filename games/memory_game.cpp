@@ -14,24 +14,24 @@
  * @author [David Leal](https://github.com/Panquesito7)
  */
 
-#include <algorithm>  /// for std::shuffle()
-#include <cstdlib>    /// for std::srand()
-#include <ctime>      /// for std::time()
-#include <iostream>   /// for IO operations
-#include <random>     /// for std::mt19937
-#include <vector>     /// for std::vector
+#include <algorithm>  // for std::shuffle()
+#include <cstdlib>    // for std::srand()
+#include <ctime>      // for std::time()
+#include <iostream>   // for IO operations
+#include <random>     // for std::mt19937
+#include <vector>     // for std::vector
 
 // `Sleep` is only available in Windows in milliseconds.
 // However, on Unix/Linux systems it is `sleep`, in seconds.
 #ifdef _WIN32
-#include <Windows.h>  /// for Sleep()
+#include <Windows.h>  // for Sleep()
 template <typename T>
 constexpr typename std::enable_if<std::is_integral<T>::value, void>::type SLEEP(
     T milliseconds) {
     Sleep(milliseconds * 1000);
 }
 #else
-#include <unistd.h>  /// for sleep()
+#include <unistd.h>  // for sleep()
 template <typename T>
 constexpr T SLEEP(T seconds) {
     return sleep(seconds);

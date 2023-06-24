@@ -17,9 +17,9 @@
  * @author [David Leal](https://github.com/Panquesito7)
  */
 
-#include <cassert>   /// for assert
-#include <cmath>     /// for std::abs
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <cmath>     // for std::abs
+#include <iostream>  // for IO operations
 
 /**
  * @namespace

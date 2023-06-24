@@ -15,9 +15,9 @@
  * @author [Swastika Gupta](https://github.com/Swastyy)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for std::cout
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <iostream>  // for std::cout
+#include <vector>    // for std::vector
 
 /**
  * @namespace math

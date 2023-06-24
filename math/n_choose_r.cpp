@@ -10,8 +10,8 @@
  * @author [Tajmeet Singh](https://github.com/tjgurwara99)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for io operations
+#include <cassert>   // for assert
+#include <iostream>  // for io operations
 
 /**
  * @namespace math

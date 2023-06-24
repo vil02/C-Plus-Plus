@@ -7,10 +7,10 @@
  * Diffie-Hellman) Key exchange.
  * @author [Ashish Daulatabad](https://github.com/AshishYUO)
  */
-#include <string>   /// for `std::string`
-#include <utility>  /// for `std::pair` library
+#include <string>   // for `std::string`
+#include <utility>  // for `std::pair` library
 
-#include "uint128_t.hpp"  /// for uint128_t integer
+#include "uint128_t.hpp"  // for uint128_t integer
 
 #ifndef CIPHERS_UINT256_T_HPP_
 #define CIPHERS_UINT256_T_HPP_

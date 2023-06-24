@@ -19,10 +19,10 @@
  * @author  [Soham Roy](https://github.com/sohamroy19)
  */
 
-#include <cassert>   /// for assert
-#include <cmath>     /// for log2
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <cmath>     // for log2
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector
 
 /**
  * @brief   Constructs the initial segment tree

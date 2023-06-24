@@ -22,9 +22,9 @@
  *
  * @author [Magdy Sedra](https://github.com/MSedra)
  */
-#include <iostream>  /// for IO operations
-#include <memory>    /// to manage dynamic memory
-#include <vector>    /// for std::vector
+#include <iostream>  // for IO operations
+#include <memory>    // to manage dynamic memory
+#include <vector>    // for std::vector
 
 /**
  * @namespace range_queries

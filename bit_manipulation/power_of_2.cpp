@@ -15,8 +15,8 @@
  * @author [Prafful Gupta](https://github.com/EcstaticPG-25811)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @namespace bit_manipulation

@@ -28,13 +28,13 @@
  * (-0.5,0.866025) (-0.5,0.866025)
  */
 
-#include <array>      /// std::array
-#include <cassert>    /// assert
-#include <cmath>      /// std::sqrt, std::trunc, std::pow
-#include <complex>    /// std::complex
-#include <exception>  /// std::invalid_argument
-#include <iomanip>    /// std::setprecision
-#include <iostream>   /// std::cout
+#include <array>      // std::array
+#include <cassert>    // assert
+#include <cmath>      // std::sqrt, std::trunc, std::pow
+#include <complex>    // std::complex
+#include <exception>  // std::invalid_argument
+#include <iomanip>    // std::setprecision
+#include <iostream>   // std::cout
 
 /**
  * @namespace

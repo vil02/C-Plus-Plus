@@ -44,12 +44,12 @@
  * @author [Nitin Sharma](https://github.com/foo290)
  */
 
-#include <algorithm>  /// for std::is_sorted(), std::swap()
-#include <array>      /// for std::array
-#include <cassert>    /// for assert
-#include <ctime>      /// for initializing random number generator
-#include <iostream>   /// for IO operations
-#include <tuple>      /// for returning multiple values form a function at once
+#include <algorithm>  // for std::is_sorted(), std::swap()
+#include <array>      // for std::array
+#include <cassert>    // for assert
+#include <ctime>      // for initializing random number generator
+#include <iostream>   // for IO operations
+#include <tuple>      // for returning multiple values form a function at once
 
 /**
  * @namespace sorting

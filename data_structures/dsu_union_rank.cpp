@@ -19,9 +19,9 @@
  * @see dsu_path_compression.cpp
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector
 
 using std::cout;
 using std::endl;

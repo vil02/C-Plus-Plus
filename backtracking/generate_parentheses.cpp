@@ -11,9 +11,9 @@
 
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for I/O operation
-#include <vector>    /// for vector container
+#include <cassert>   // for assert
+#include <iostream>  // for I/O operation
+#include <vector>    // for vector container
 
 /**
  * @brief Backtracking algorithms

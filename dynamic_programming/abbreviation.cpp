@@ -23,10 +23,10 @@
  * @author [Ashish Daulatabad](https://github.com/AshishYUO)
  */
 
-#include <cassert>   /// for `assert`
-#include <iostream>  /// for IO operations
-#include <string>    /// for `std::string` library
-#include <vector>    /// for `std::vector` STL library
+#include <cassert>   // for `assert`
+#include <iostream>  // for IO operations
+#include <string>    // for `std::string` library
+#include <vector>    // for `std::vector` STL library
 /**
  * @namespace dynamic_programming
  * @brief Dynamic Programming Algorithms

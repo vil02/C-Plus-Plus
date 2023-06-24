@@ -25,9 +25,9 @@
  * @author [Nitin Sharma](https://github.com/foo290)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector
 
 /**
  * @namespace search

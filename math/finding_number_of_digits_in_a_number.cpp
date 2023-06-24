@@ -16,9 +16,9 @@
  * the number of digits in a number.md) repository.
  */
 
-#include <cassert>   /// for assert
-#include <cmath>     /// for log calculation
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <cmath>     // for log calculation
+#include <iostream>  // for IO operations
 
 /**
  * @brief The main function that checks

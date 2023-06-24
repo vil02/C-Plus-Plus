@@ -15,8 +15,8 @@
  * @author [Swastika Gupta](https://github.com/Swastyy)
  * @author [Prashant Thakur](https://github.com/prashant-th18)
  */
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 /**
  * @namespace bit_manipulation
  * @brief Bit manipulation algorithms

@@ -11,8 +11,8 @@
  * @author [uday6670](https://github.com/uday6670)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for std::cin and std::cout
+#include <cassert>   // for assert
+#include <iostream>  // for std::cin and std::cout
 
 /**
  * @namespace math

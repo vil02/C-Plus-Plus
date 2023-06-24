@@ -11,9 +11,9 @@
  * digits.
  * @author [Ashish Daulatabad](https://github.com/AshishYUO)
  */
-#include <array>     /// for `std::array`
-#include <cassert>   /// for `assert` operations
-#include <iostream>  /// for IO operations
+#include <array>     // for `std::array`
+#include <cassert>   // for `assert` operations
+#include <iostream>  // for IO operations
 
 /**
  * @namespace ciphers

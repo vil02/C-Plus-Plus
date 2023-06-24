@@ -7,8 +7,8 @@
  * @author [Ritika Mukherjee](https://github.com/ritikaa17)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * \brief [Algorithm implementation for linear search]

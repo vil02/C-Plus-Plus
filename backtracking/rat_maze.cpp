@@ -16,9 +16,9 @@
  * @author [David Leal](https://github.com/Panquesito7)
  */
 
-#include <array>     /// for std::array
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <array>     // for std::array
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @namespace backtracking

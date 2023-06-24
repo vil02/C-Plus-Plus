@@ -45,10 +45,10 @@
  * @author [Nitin Sharma](https://github.com/foo290)
  * */
 
-#include <cassert>        /// for assert
-#include <iostream>       /// for IO Operations
-#include <list>           /// for std::list
-#include <unordered_map>  /// for std::unordered_map
+#include <cassert>        // for assert
+#include <iostream>       // for IO Operations
+#include <list>           // for std::list
+#include <unordered_map>  // for std::unordered_map
 
 /**
  * @namespace others

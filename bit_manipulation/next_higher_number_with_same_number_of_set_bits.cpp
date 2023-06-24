@@ -15,8 +15,8 @@
  * @author [Kunal Nayak](https://github.com/Kunal766)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @namespace bit_manipulation

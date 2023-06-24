@@ -38,11 +38,11 @@
  * @author [Lajat Manekar](https://github.com/Lazeeez)
  *
  *******************************************************************************/
-#include <algorithm>  /// for std::swap
-#include <cstdlib>    /// for mathematics and datatype conversion
-#include <iostream>   /// for IO operations
-#include <stack>      /// for std::stack
-#include <vector>     /// for std::vector
+#include <algorithm>  // for std::swap
+#include <cstdlib>    // for mathematics and datatype conversion
+#include <iostream>   // for IO operations
+#include <stack>      // for std::stack
+#include <vector>     // for std::vector
 
 /******************************************************************************
  * @namespace geometry

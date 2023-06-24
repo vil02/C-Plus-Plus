@@ -12,8 +12,8 @@
  * @author [Ravishankar Joshi](https://github.com/ravibitsgoa)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for io operations
+#include <cassert>   // for assert
+#include <iostream>  // for io operations
 
 /**
  * @namespace bit_manipulation

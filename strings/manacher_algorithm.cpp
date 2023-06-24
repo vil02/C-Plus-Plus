@@ -10,13 +10,13 @@
  * @author [Riti Kumari](https://github.com/riti2409)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector STL
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector STL
 #ifdef _MSC_VER
-#include <string>  /// for string (required for MS Visual C++)
+#include <string>  // for string (required for MS Visual C++)
 #else
-#include <cstring>  /// for string
+#include <cstring>  // for string
 #endif
 
 /**

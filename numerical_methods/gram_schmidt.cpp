@@ -28,10 +28,10 @@
  * @author [Akanksha Gupta](https://github.com/Akanksha-Gupta920)
  */
 
-#include <array>     /// for std::array
-#include <cassert>   /// for assert
-#include <cmath>     /// for fabs
-#include <iostream>  /// for io operations
+#include <array>     // for std::array
+#include <cassert>   // for assert
+#include <cmath>     // for fabs
+#include <iostream>  // for io operations
 
 #include "math.h"
 

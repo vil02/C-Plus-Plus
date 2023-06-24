@@ -18,9 +18,9 @@
  * @see dsu_union_rank.cpp
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector
 
 using std::cout;
 using std::endl;

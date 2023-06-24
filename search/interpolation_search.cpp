@@ -29,10 +29,10 @@
  * @author Unknown author
  *******************************************************************************/
 
-#include <algorithm>  /// for std::sort function
-#include <cassert>    /// for std::assert
-#include <iostream>   /// for IO operations
-#include <vector>     /// for std::vector
+#include <algorithm>  // for std::sort function
+#include <cassert>    // for std::assert
+#include <iostream>   // for IO operations
+#include <vector>     // for std::vector
 
 /******************************************************************************
  * @namespace search

@@ -16,9 +16,9 @@
  *
  * @author [Neeraj Cherkara](https://github.com/iamnambiar)
  */
-#include <cassert>   /// for assert
-#include <cmath>     /// for std::pow
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <cmath>     // for std::pow
+#include <iostream>  // for IO operations
 
 /**
  * @brief Function to calculate the total number of digits in the number.

@@ -10,10 +10,10 @@
  * @author [Sujal Gupta](https://github.com/heysujal)
  */
 
-#include <algorithm>  /// for std::is_sorted
-#include <cassert>    /// for assert
-#include <iostream>   /// for std::swap and io operations
-#include <vector>     /// for std::vector
+#include <algorithm>  // for std::is_sorted
+#include <cassert>    // for assert
+#include <iostream>   // for std::swap and io operations
+#include <vector>     // for std::vector
 
 /**
  * @namespace sorting

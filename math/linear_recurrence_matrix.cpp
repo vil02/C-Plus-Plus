@@ -17,9 +17,9 @@
  * here](https://en.wikipedia.org/wiki/Exponentiation_by_squaring).
  * @author [Ashish Daulatabad](https://github.com/AshishYUO)
  */
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector STL
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector STL
 
 /**
  * @namespace math

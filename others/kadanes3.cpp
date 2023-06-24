@@ -14,10 +14,10 @@
  * @author [Abhijeet Tiwari](https://github.com/thisabhijeet)
  */
 
-#include <array>     /// for std::array
-#include <cassert>   /// for assert
-#include <climits>   /// for INT_MIN value
-#include <iostream>  /// for IO operations
+#include <array>     // for std::array
+#include <cassert>   // for assert
+#include <climits>   // for INT_MIN value
+#include <iostream>  // for IO operations
 
 /**
  * @brief Utility function to check the current maximum number

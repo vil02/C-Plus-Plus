@@ -24,11 +24,11 @@
  * @author [popoapp](https://github.com/popoapp)
  */
 
-#include <algorithm>  /// for std::is_sorted
-#include <cassert>    /// for std::assert
-#include <ctime>      /// for std::time
-#include <iostream>   /// for IO operations
-#include <vector>     /// for std::vector
+#include <algorithm>  // for std::is_sorted
+#include <cassert>    // for std::assert
+#include <ctime>      // for std::time
+#include <iostream>   // for IO operations
+#include <vector>     // for std::vector
 
 /**
  * @brief Sorting algorithms

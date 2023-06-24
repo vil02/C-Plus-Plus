@@ -15,9 +15,9 @@
  * @author [Ravidev Pandey](https://github.com/literalEval)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
-#include <vector>    /// storing the numbers
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
+#include <vector>    // storing the numbers
 
 /**
  * @namespace bit_manipulation

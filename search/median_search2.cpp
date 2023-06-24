@@ -22,8 +22,8 @@
  * @see median_search.cpp
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * Definition for singly-linked list.

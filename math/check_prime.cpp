@@ -14,8 +14,8 @@
  * @author [ewd00010](https://github.com/ewd00010)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @brief Mathematical algorithms

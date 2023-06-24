@@ -11,14 +11,14 @@
  * @author [Ritika Gupta](https://github.com/RitikaGupta8734)
  */
 
-#include <iostream>  /// for IO operations
+#include <iostream>  // for IO operations
 #ifdef _MSC_VER
-#include <string>  /// for string (use this for MS Visual C++)
+#include <string>  // for string (use this for MS Visual C++)
 #else
-#include <cstring>  /// for string
+#include <cstring>  // for string
 #endif
-#include <cassert>  /// for assert
-#include <vector>   /// for std::vector
+#include <cassert>  // for assert
+#include <vector>   // for std::vector
 
 /**
  * @brief Generate the Z-function for the inputted string.

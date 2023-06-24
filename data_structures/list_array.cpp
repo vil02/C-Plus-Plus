@@ -14,9 +14,9 @@
  * and print the list.
  */
 
-#include <array>     /// for std::array
-#include <cassert>   /// for assert
-#include <iostream>  /// for io operations
+#include <array>     // for std::array
+#include <cassert>   // for assert
+#include <iostream>  // for io operations
 
 /**
  * @namespace data_structures

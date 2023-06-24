@@ -14,10 +14,10 @@
  * @author [KillerAV](https://github.com/KillerAV)
  */
 
-#include <cassert>        /// for std::assert
-#include <iostream>       /// for IO operations
-#include <unordered_map>  /// for unordered map
-#include <vector>         /// for std::vector
+#include <cassert>        // for std::assert
+#include <iostream>       // for IO operations
+#include <unordered_map>  // for unordered map
+#include <vector>         // for std::vector
 
 /**
  * @namespace dynamic_programming

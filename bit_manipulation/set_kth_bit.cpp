@@ -18,8 +18,8 @@
  * @author [Aman Raj](https://github.com/aman2000raj)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @namespace bit_manipulation

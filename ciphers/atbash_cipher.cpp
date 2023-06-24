@@ -12,10 +12,10 @@
  *
  * @author [Focusucof](https://github.com/Focusucof)
  */
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
-#include <map>       /// for std::map
-#include <string>    /// for std::string
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
+#include <map>       // for std::map
+#include <string>    // for std::string
 
 /** \namespace ciphers
  * \brief Algorithms for encryption and decryption

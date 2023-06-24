@@ -19,8 +19,8 @@
  * @author [SpiderMath](https://github.com/SpiderMath)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @brief Mathematical algorithms

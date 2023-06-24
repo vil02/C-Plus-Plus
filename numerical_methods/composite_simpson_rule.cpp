@@ -35,14 +35,14 @@
  *
  */
 
-#include <cassert>  /// for assert
-#include <cmath>    /// for math functions
+#include <cassert>  // for assert
+#include <cmath>    // for math functions
 #include <cmath>
-#include <cstdint>     /// for integer allocation
-#include <cstdlib>     /// for std::atof
-#include <functional>  /// for std::function
-#include <iostream>    /// for IO operations
-#include <map>         /// for std::map container
+#include <cstdint>     // for integer allocation
+#include <cstdlib>     // for std::atof
+#include <functional>  // for std::function
+#include <iostream>    // for IO operations
+#include <map>         // for std::map container
 
 /**
  * @namespace numerical_methods

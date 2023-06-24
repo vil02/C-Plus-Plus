@@ -16,9 +16,9 @@
  * @author [Paulo Vitor Lima Borges](https://github.com/PauloVLB)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector
 
 /**
  * @namespace range_queries

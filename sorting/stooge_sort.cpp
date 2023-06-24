@@ -13,10 +13,10 @@
  * on the street on average. Space complexity is O(1).
  */
 
-#include <algorithm>  /// for std::is_sorted
-#include <cassert>    /// for assert
-#include <iostream>   /// for IO operations
-#include <vector>     /// for vector
+#include <algorithm>  // for std::is_sorted
+#include <cassert>    // for assert
+#include <iostream>   // for IO operations
+#include <vector>     // for vector
 
 /**
  * @brief The stoogeSort() function is used for sorting the array.

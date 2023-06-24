@@ -1,7 +1,7 @@
-#include <cassert>    /// for assert
-#include <iostream>   /// for std::cout
-#include <stdexcept>  /// std::invalid_argument
-#include <vector>     /// for std::vector
+#include <cassert>    // for assert
+#include <iostream>   // for std::cout
+#include <stdexcept>  // std::invalid_argument
+#include <vector>     // for std::vector
 
 #include "./stack.hpp"
 

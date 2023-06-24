@@ -20,7 +20,7 @@
 #include <algorithm>
 #include <cassert>
 #include <ctime>
-#include <iostream>  /// for io operations
+#include <iostream>  // for io operations
 #include <vector>
 
 /**

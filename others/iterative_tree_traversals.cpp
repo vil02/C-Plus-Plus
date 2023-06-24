@@ -35,11 +35,11 @@
  * set of steps until the Stack becomes empty or the current becomes NULL. And
  * return the result array as the inorder traversal of a tree.
  */
-#include <algorithm>  /// for `reverse`
-#include <cassert>    /// for `assert`
-#include <iostream>   /// for I/O operations
-#include <stack>      /// for `stack`
-#include <vector>     /// for `vector`
+#include <algorithm>  // for `reverse`
+#include <cassert>    // for `assert`
+#include <iostream>   // for I/O operations
+#include <stack>      // for `stack`
+#include <vector>     // for `vector`
 
 /**
  * @namespace others

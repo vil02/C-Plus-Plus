@@ -16,10 +16,10 @@
  * @author [Gleison Batista](https://github.com/gleisonbs)
  * @author [David Leal](https://github.com/Panquesito7)
  */
-#include <algorithm>  /// for std::max, std::min
-#include <array>      /// for std::array
-#include <cmath>      /// for log2
-#include <iostream>   /// for IO operations
+#include <algorithm>  // for std::max, std::min
+#include <array>      // for std::array
+#include <cmath>      // for log2
+#include <iostream>   // for IO operations
 
 /**
  * @namespace backtracking

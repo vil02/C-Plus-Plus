@@ -17,8 +17,8 @@
  * @author [AlternateWalls](https://github.com/AlternateWalls)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /*
  * @brief Contains information for Easter date

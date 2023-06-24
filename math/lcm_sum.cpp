@@ -12,9 +12,9 @@
  * @author [Chesta Mittal](https://github.com/chestamittal)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for std::cin and std::cout
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <iostream>  // for std::cin and std::cout
+#include <vector>    // for std::vector
 
 /**
  * @namespace math

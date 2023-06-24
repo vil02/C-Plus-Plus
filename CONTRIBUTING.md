@@ -81,9 +81,9 @@ assert(backtracking::subset_sum::number_of_subsets(0, array1) ==
 3. Small C++ program that showcases and explains the use of tests.
 
 ```cpp
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector
-#include <cassert>   /// for assert
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector
+#include <cassert>   // for assert
 
 /**
  * @brief Verifies if the given array
@@ -148,8 +148,8 @@ int main() {
  * @see related_file.cpp, another_file.cpp
  */
 
-#include <cassert>   /// for assert
-#include             /// for `some function here`
+#include <cassert>   // for assert
+#include             // for `some function here`
 
 /**
  * @namespace

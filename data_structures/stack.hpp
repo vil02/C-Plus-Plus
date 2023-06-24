@@ -7,9 +7,9 @@
 #ifndef DATA_STRUCTURES_STACK_HPP_
 #define DATA_STRUCTURES_STACK_HPP_
 
-#include <stdexcept>  /// for std::invalid_argument
+#include <stdexcept>  // for std::invalid_argument
 
-#include "node.hpp"  /// for Node
+#include "node.hpp"  // for Node
 
 /** Definition of the stack class
  * \tparam value_type type of data nodes of the linked list in the stack should

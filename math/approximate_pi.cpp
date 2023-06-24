@@ -15,9 +15,9 @@
  * @author [Qannaf AL-SAHMI](https://github.com/Qannaf)
  */
 
-#include <cstdlib>   /// for std::rand
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector
+#include <cstdlib>   // for std::rand
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector
 
 /**
  * @namespace math

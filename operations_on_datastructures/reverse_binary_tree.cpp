@@ -10,10 +10,10 @@
  * @author [Alvin](https://github.com/polarvoid)
  */
 
-#include <cassert>   /// For assert
-#include <iostream>  /// For IO operations
-#include <queue>     /// For std::queue
-#include <vector>    /// For std::vector
+#include <cassert>   // For assert
+#include <iostream>  // For IO operations
+#include <queue>     // For std::queue
+#include <vector>    // For std::vector
 
 /**
  * @namespace operations_on_datastructures

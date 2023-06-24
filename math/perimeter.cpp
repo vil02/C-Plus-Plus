@@ -9,10 +9,10 @@
  * @author [OGscorpion](https://github.com/OGscorpion)
  */
 #define _USE_MATH_DEFINES
-#include <cassert>   /// for assert
-#include <cmath>     /// for M_PI definition and pow()
-#include <cstdint>   /// for uint16_t datatype
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <cmath>     // for M_PI definition and pow()
+#include <cstdint>   // for uint16_t datatype
+#include <iostream>  // for IO operations
 
 /**
  * @namespace math

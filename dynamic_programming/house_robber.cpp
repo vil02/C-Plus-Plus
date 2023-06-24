@@ -9,10 +9,10 @@
  * @author [Swastika Gupta](https://github.com/Swastyy)
  */
 
-#include <cassert>   /// for assert
-#include <climits>   /// for std::max
-#include <iostream>  /// for io operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <climits>   // for std::max
+#include <iostream>  // for io operations
+#include <vector>    // for std::vector
 
 /**
  * @namespace dynamic_programming

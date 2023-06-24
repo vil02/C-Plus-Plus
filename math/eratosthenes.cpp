@@ -13,11 +13,11 @@
  * @author [Keval Kapdee](https://github.com/thechubbypanda)
  */
 
-#include <cassert>   /// For assert
-#include <chrono>    /// For timing the sieve
-#include <iostream>  /// For IO operations
-#include <string>    /// For string handling
-#include <vector>    /// For std::vector
+#include <cassert>   // For assert
+#include <chrono>    // For timing the sieve
+#include <iostream>  // For IO operations
+#include <string>    // For string handling
+#include <vector>    // For std::vector
 
 /**
  * @namespace math

@@ -57,11 +57,11 @@
  * complexity
 */
 
-#include <algorithm>  /// for std::is_sorted
-#include <array>      /// for std::array
-#include <cassert>    /// for assert
-#include <iostream>   /// for IO operations
-#include <vector>     /// for std::vector
+#include <algorithm>  // for std::is_sorted
+#include <array>      // for std::array
+#include <cassert>    // for assert
+#include <iostream>   // for IO operations
+#include <vector>     // for std::vector
 
 /**
  * @namespace sorting

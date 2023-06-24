@@ -11,11 +11,11 @@
  * @author [Ameya Chawla](https://github.com/ameyachawlaggsipu)
  */
 
-#include <cassert>   /// for assert
-#include <cmath>     /// for mathematical-related functions
-#include <complex>   /// for storing points and coefficents
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <cmath>     // for mathematical-related functions
+#include <complex>   // for storing points and coefficents
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector
 
 /**
  * @namespace numerical_methods

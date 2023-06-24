@@ -34,9 +34,9 @@
  * @author [Nirjas Jakilim](github.com/nirzak)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
-#include <vector>    /// for std::vector
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
+#include <vector>    // for std::vector
 /**
  * @namespace dynamic_programming
  * @brief Dynamic Programming algorithms

@@ -16,8 +16,8 @@
  *
  * @author [Shri2206](https://github.com/Shri2206)
  */
-#include <cassert>   /// for assert
-#include <iostream>  /// for io operations
+#include <cassert>   // for assert
+#include <iostream>  // for io operations
 
 /**
  * @namespace math

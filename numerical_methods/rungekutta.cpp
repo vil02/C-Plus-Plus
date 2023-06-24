@@ -18,9 +18,9 @@
  * conditions
  * There can be many such equations
  */
-#include <cassert>   /// asserting the test functions
-#include <iostream>  /// for io operations
-#include <vector>    /// for using the vector container
+#include <cassert>   // asserting the test functions
+#include <iostream>  // for io operations
+#include <vector>    // for using the vector container
 
 /**
  * @brief The change() function is used

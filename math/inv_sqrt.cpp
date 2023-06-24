@@ -8,10 +8,10 @@
  * This algorithm is used to calculate shadows in Quake III Arena.
  */
 
-#include <cassert>   /// for assert
-#include <cmath>     /// for `std::sqrt`
-#include <iostream>  /// for IO operations
-#include <limits>    /// for numeric_limits
+#include <cassert>   // for assert
+#include <cmath>     // for `std::sqrt`
+#include <iostream>  // for IO operations
+#include <limits>    // for numeric_limits
 
 /**
  * @brief This is the function that calculates the fast inverse square root.

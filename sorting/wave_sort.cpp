@@ -8,10 +8,10 @@
  * @author [Swastika Gupta](https://github.com/Swastyy)
  */
 
-#include <algorithm>  /// for std::is_sorted, std::swap
-#include <cassert>    /// for assert
-#include <iostream>   /// for IO operations
-#include <vector>     /// for std::vector
+#include <algorithm>  // for std::is_sorted, std::swap
+#include <cassert>    // for assert
+#include <iostream>   // for IO operations
+#include <vector>     // for std::vector
 
 /**
  * @namespace sorting

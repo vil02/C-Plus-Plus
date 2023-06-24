@@ -14,8 +14,8 @@
  *
  * @author [iamnambiar](https://github.com/iamnambiar)
  */
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @brief Mathematical algorithms

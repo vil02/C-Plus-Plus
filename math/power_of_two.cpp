@@ -22,8 +22,8 @@
  * @author [Rijul.S](https://github.com/Rijul24)
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for IO operations
+#include <cassert>   // for assert
+#include <iostream>  // for IO operations
 
 /**
  * @namespace math

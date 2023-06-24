@@ -9,13 +9,13 @@
  * the K-nearest neighbors.
  */
 
-#include <algorithm>      /// for std::transform and std::sort
-#include <cassert>        /// for assert
-#include <cmath>          /// for std::pow and std::sqrt
-#include <iostream>       /// for std::cout
-#include <numeric>        /// for std::accumulate
-#include <unordered_map>  /// for std::unordered_map
-#include <vector>         /// for std::vector
+#include <algorithm>      // for std::transform and std::sort
+#include <cassert>        // for assert
+#include <cmath>          // for std::pow and std::sqrt
+#include <iostream>       // for std::cout
+#include <numeric>        // for std::accumulate
+#include <unordered_map>  // for std::unordered_map
+#include <vector>         // for std::vector
 
 /**
  * @namespace machine_learning

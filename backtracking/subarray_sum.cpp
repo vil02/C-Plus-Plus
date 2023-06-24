@@ -13,10 +13,10 @@
  * @author [Swastika Gupta](https://github.com/Swastyy)
  */
 
-#include <cassert>        /// for assert
-#include <iostream>       /// for IO operations
-#include <unordered_map>  /// for unordered_map
-#include <vector>         /// for std::vector
+#include <cassert>        // for assert
+#include <iostream>       // for IO operations
+#include <unordered_map>  // for unordered_map
+#include <vector>         // for std::vector
 
 /**
  * @namespace backtracking

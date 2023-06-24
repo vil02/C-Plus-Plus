@@ -51,9 +51,9 @@
  *
  */
 
-#include <cassert>   /// for assert
-#include <iostream>  /// for I/O operations
-#include <vector>    /// for vector
+#include <cassert>   // for assert
+#include <iostream>  // for I/O operations
+#include <vector>    // for vector
 
 /**
  * @namespace others

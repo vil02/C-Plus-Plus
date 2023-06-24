@@ -9,14 +9,14 @@
  * @author [Focusucof](https://github.com/Focusucof)
  */
 
-#include <algorithm>  /// for std::transform and std::replace
-#include <cassert>    /// for assert
-#include <cstdint>    /// for uint8_t
-#include <iostream>   /// for IO operations
-#include <map>        /// for std::map
-#include <sstream>    /// for std::stringstream
-#include <string>     /// for std::string
-#include <vector>     /// for std::vector
+#include <algorithm>  // for std::transform and std::replace
+#include <cassert>    // for assert
+#include <cstdint>    // for uint8_t
+#include <iostream>   // for IO operations
+#include <map>        // for std::map
+#include <sstream>    // for std::stringstream
+#include <string>     // for std::string
+#include <vector>     // for std::vector
 
 /**
  * @namespace ciphers
